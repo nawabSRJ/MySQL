@@ -7,3 +7,5 @@ CREATE TABLE Workers
     primary key(id),
     foreign key(city) references cities(cid)
 )
+
+# city will contain an int value to be matched in the reference table 'cities'
