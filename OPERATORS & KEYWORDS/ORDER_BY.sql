@@ -11,3 +11,13 @@ SELECT * FROM students ORDER BY NAME DESC;	# will be done in descending order
 
 SELECT * FROM students WHERE Name LIKE "%A%"  ORDER BY Name;
 # records with 'a' in between arranged in asc order
+
+
+# Using Both ASC and DESC
+use padhai;
+SELECT * FROM students ORDER BY NAME ASC , AGE DESC;
+																																		
+
+
+
+

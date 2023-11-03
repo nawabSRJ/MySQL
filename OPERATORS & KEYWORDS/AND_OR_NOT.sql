@@ -22,3 +22,14 @@ SELECT * FROM STUDENTS
 WHERE NOT CITY = 'Agra' AND NOT CITY = 'Lucknow';
 # no contacts of agra and lucknow in the above statement
 
+# NOT Greater Than
+
+SELECT * FROM STUDENTS WHERE NOT AGE > 30;
+
+# Combining AND , OR Operator
+SELECT * FROM padhai.STUDENTS WHERE CITY = 'Lucknow' AND (Name LIKE 'K%' OR Name NOT LIKE 'P%'); 
+
+# Tricky :
+SELECT * FROM padhai.STUDENTS WHERE CITY = 'Lucknow' AND (Name LIKE 'K%' OR Name NOT LIKE 'K%');
+
+SELECT * FROM padhai.STUDENTS WHERE CITY = 'Lucknow' AND (Name LIKE 'K%' AND Name NOT LIKE 'K%'); 

@@ -1,6 +1,8 @@
 /* 
 	LIMIT Keyword : to limit the number of results that are returned you can simply use LIMIT command with several rows to limit by.
 
+It is a replacement of the 'TOP' keyword in MS ACCESS / SQL SERVER  
+
 */
 
 SELECT * FROM padhai.students LIMIT 5;	# by default it will show first 5 records 
@@ -12,7 +14,6 @@ SELECT * FROM padhai.students WHERE Name LIKE "%a%" LIMIT 2;	#again it took firs
 SELECT * FROM padhai.students ORDER BY NAME DESC LIMIT 5;
 
 SELECT * FROM padhai.students WHERE AGE > 20 LIMIT 5;
-
 #-------------------------------- OFFSET Concept -----------------------------------------
 
 /*

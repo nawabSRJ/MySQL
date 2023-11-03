@@ -14,6 +14,8 @@ SELECT * FROM students WHERE Name LIKE "%a";	#ends with 'a'
 
 SELECT * FROM students WHERE Name LIKE "a%"; #starts with 'a'
 
+SELECT * FROM students WHERE Name LIKE "a%m"; #starts with 'a' and ends with 'm'
+
 SELECT * FROM students WHERE Name LIKE "%a%";	# 'a' in between
 
 SELECT * FROM students WHERE Name LIKE "_a%"; # 'a' is 2nd character followed by some string

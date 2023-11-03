@@ -4,3 +4,10 @@
 USE PADHAI;
 SELECT DISTINCT city FROM students;
 
+# Counting DISTINCT items
+
+SELECT COUNT(distinct CITY) FROM PADHAI.STUDENTS;
+
+
+
+
